@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="/assets/python.svg" width="140" height="140" />
+</p>
+<p align="center">⭐⭐⭐</p>
+
 # Understanding Python
 > Code sources and commented description
 
