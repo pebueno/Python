@@ -1,13 +1,3 @@
-def test():
-  print("This is a test function")
-test()
-
-
-def displayName(name, age):
-  print ("Hello, my name is:", name, "and my age is: ", age)
-
-displayName("Pedro", 25)  
-
 def sum(number1, number2):
   sum =  number1 + number2
   result = "The result is"

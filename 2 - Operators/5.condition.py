@@ -1,4 +1,5 @@
-# if, else,elif
+# Selection structure 
+# conditional operators: if, else,elif
 name = "Pedro"
 if name:
     print("The variable is not empty")  
