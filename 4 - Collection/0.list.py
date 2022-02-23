@@ -20,22 +20,25 @@ fruits[3] = "Pear"
 # .extend() method is used to add more than one element at the end of the list
 fruits.extend(["Orange", "Lemon"]) 
 
-# .extend() method is used to remove an element from the list
+# .remove() method is used to remove an element from the list
 fruits.remove("Lemon")
 
 
 # .pop() method can remove an element from any position in the list 
 fruits.pop(0)
 
-# The min() method returns the minimum value in the list. 
-# The max() method returns the maximum value in the list
-# min() & max(), 
+# The min() method returns the minimum value in the list
 print(min(fruits))
+# The max() method returns the maximum value in the list
 print(max(fruits))
 
 numbers = [1, 2, 3]
 print(min(numbers))
 print(max(numbers))
+
+# .sort() method sorts the list in ascending order
+fruits.sort()
+print(fruits)
 
 #OPERATIONS
 
@@ -52,19 +55,10 @@ print(fruits[:])   # prints from beginning to end of list
 fruits.reverse()
 print(fruits)
 
+# Multiply the list n times 
+print(fruits*5)
+
 #FUNCTIONS
 
 # function count() returns the number of occurrences of a given element in the list.
 print(fruits.count(0))
-
-# .extend() method 
-# multiply(), 
-
-# .extend() method 
-# sort(), 
-
-# .extend() method 
-# index(), 
-
-# .extend() method 
-# clear()
